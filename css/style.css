@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex: align-center;
+}
+
+body {
+  background-color: rgb(229, 241, 229);
+}
+
+img {
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+}
+
+.col-sm-3,
+.col-sm-label {
+  flex-basis: auto;
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+h1,
+h6 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container-form1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 65px;
+  font-family: 'Brush Script MT', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.position-relative {
+  position: relative;
+}
